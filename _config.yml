@@ -6,10 +6,9 @@ description: >-
 
 baseurl: "/gh-pages-test"
 url: "https://thenjip.github.com"
-github_username:  thenjip
+github_username: thenjip
 
 # Build settings
-theme:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -18,3 +17,7 @@ cayman-blog:
   date_format: "%b %-d, %Y"
 
 header_page_refs: ['about', 'contact']
+
+exclude:
+  - "Gemfile*"
+  - "README.md"
