@@ -9,6 +9,7 @@ url: "https://thenjip.github.com"
 github_username:  thenjip
 
 # Build settings
+theme:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
